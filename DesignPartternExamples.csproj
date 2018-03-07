@@ -32,7 +32,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,11 +49,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational Patterns\Abstract Factory\AbstractFactoryTest.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory\AbstractMensagemFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory\Email.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory\IMensagem.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory\MensagemFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory\SMS.cs" />
+    <Compile Include="Creational Patterns\Builder\BuilderTest.cs" />
+    <Compile Include="Creational Patterns\Builder\Pessoa.cs" />
+    <Compile Include="Creational Patterns\Builder\PessoaBuilder.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Dolar.cs" />
+    <Compile Include="Creational Patterns\Factory Method\EnumPais.cs" />
+    <Compile Include="Creational Patterns\Factory Method\FactoryMethodTest.cs" />
+    <Compile Include="Creational Patterns\Factory Method\IMoeda.cs" />
+    <Compile Include="Creational Patterns\Factory Method\MoedaFactory.cs" />
+    <Compile Include="Creational Patterns\Factory Method\Real.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behavioral Patterns\" />
+    <Folder Include="Creational Patterns\Prototype\" />
+    <Folder Include="Creational Patterns\Singleton\" />
+    <Folder Include="Structural Patterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
