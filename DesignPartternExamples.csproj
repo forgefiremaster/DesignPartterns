@@ -64,6 +64,12 @@
     <Compile Include="Creational Patterns\Factory Method\IMoeda.cs" />
     <Compile Include="Creational Patterns\Factory Method\MoedaFactory.cs" />
     <Compile Include="Creational Patterns\Factory Method\Real.cs" />
+    <Compile Include="Creational Patterns\Prototype\Carro.cs" />
+    <Compile Include="Creational Patterns\Prototype\CarroCompacto.cs" />
+    <Compile Include="Creational Patterns\Prototype\CarroSeda.cs" />
+    <Compile Include="Creational Patterns\Prototype\PrototypeTest.cs" />
+    <Compile Include="Creational Patterns\Singleton\BD.cs" />
+    <Compile Include="Creational Patterns\Singleton\SingletonTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,8 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral Patterns\" />
-    <Folder Include="Creational Patterns\Prototype\" />
-    <Folder Include="Creational Patterns\Singleton\" />
     <Folder Include="Structural Patterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
