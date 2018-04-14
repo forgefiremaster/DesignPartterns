@@ -9,7 +9,7 @@ namespace DesignParternExamples.Structural_Patterns.Adpter
 {
     class TestAdapter
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             // Non-adapted chemical compound
             Compound unknown = new Compound("Unknown");

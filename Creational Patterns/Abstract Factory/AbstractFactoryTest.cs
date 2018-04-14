@@ -8,7 +8,7 @@ namespace DesignParternExamples.Creational_Patterns.Abstract_Factory
 {
     class AbstractFactoryTest
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             AbstractMensagemFactory factory = new MensagemFactory();
             var sms = factory.criarMensagemEmail(); 

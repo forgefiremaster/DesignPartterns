@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignParternExamples.Structural_Patterns.Bridge;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace DesignParternExamples
     {
         static void Main(string[] args)
         {
+            TesteBridge.Main();
         }
     }
 }

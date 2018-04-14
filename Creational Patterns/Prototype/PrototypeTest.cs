@@ -8,7 +8,7 @@ namespace DesignParternExamples.Creational_Patterns.Prototype
 {
     public class PrototypeTest
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Carro uno = new CarroCompacto();
             uno.Id = 25;

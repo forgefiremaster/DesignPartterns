@@ -8,7 +8,7 @@ namespace DesignParternExamples.Creational_Patterns.Factory_Method
 {
     class FactoryMethodTest
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var moeda1 = MoedaFactory.criarMoeda(EnumPais.BRASIL);
             Console.WriteLine(moeda1.getSimbolo());

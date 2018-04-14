@@ -8,7 +8,7 @@ namespace DesignParternExamples.Creational_Patterns.Singleton
 {
     class SingletonTest
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var bd = BD.Instance;
         }
